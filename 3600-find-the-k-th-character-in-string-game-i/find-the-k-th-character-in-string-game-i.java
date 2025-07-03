@@ -6,7 +6,7 @@ class Solution {
             int n = word.length();
             for(int i=0; i<n; i++) {
                 word.append(
-                    String.valueOf((char)(word.charAt(i)+1))
+                    (char)(word.charAt(i)+1)
                 );
             }
         }
